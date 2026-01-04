@@ -48,6 +48,28 @@ git clone https://github.com/ArnavRD1/CS-For-Beginners.git
 cd CS-For-Beginners
 ```
 
-2. **Install dependencies:** npm install
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Set up environment variables**
+
+**Create a .env file in the root directory and add the following:**
+```bash
+EMAIL=your_email_here
+PASSWORD=your_email_app_password_here
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+
+4. **Start the server**
+```bash
+   node serverFinal.js
+```
+
+5. **Open in browser**
+```bash
+   http://localhost:3013
+```
 
 
