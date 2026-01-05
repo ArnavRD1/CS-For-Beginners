@@ -72,6 +72,8 @@ JWT_SECRET=your_jwt_secret_key
    http://localhost:3013
 ```
 
+---
+
 **🗄️ Database Schema**
 
 **The application uses MongoDB with Mongoose.**
@@ -108,6 +110,8 @@ const userSchema = new mongoose.Schema({
 
 **timestamps: Automatically adds createdAt and updatedAt**
 
+---
+
 **Project Structure**
 ```bash
 .
@@ -122,6 +126,8 @@ const userSchema = new mongoose.Schema({
 └── ... (HTML files)
 
 ```
+---
+
 **Environment Variables**
 The following environment variables are required (see .env.example):
 
@@ -129,6 +135,7 @@ EMAIL: Email address for sending notifications
 PASSWORD: App password for the email account
 MONGODB_URI: MongoDB connection string
 
+---
 
 **Author**
 Arnav Dinesh
