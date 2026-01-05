@@ -74,7 +74,7 @@ JWT_SECRET=your_jwt_secret_key
 
 ---
 
-## Database Schema 
+## 🗄️ Database Schema 
 
 **The application uses MongoDB with Mongoose.**
 **Main user schema:**
