@@ -98,6 +98,39 @@ const userSchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 ```
+**username: User display name**
 
+**email: User email (unique)**
+
+**password: Hashed password**
+
+**requestedCourses: Courses requested by the user**
+
+**timestamps: Automatically adds createdAt and updatedAt**
+
+**Project Structure**
+```bash
+.
+├── css/                # Stylesheets
+├── img/                # Images and icons
+├── js/                 # JavaScript files (if any)
+├── serverfinal.js      # Main backend server file
+├── package.json
+├── .env.example
+├── .gitignore
+├── README.md
+└── ... (HTML files)
+
+```
+**Environment Variables**
+The following environment variables are required (see .env.example):
+
+EMAIL: Email address for sending notifications
+PASSWORD: App password for the email account
+MONGODB_URI: MongoDB connection string
+
+
+**Author**
+Arnav Dinesh
 
 
