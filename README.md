@@ -137,7 +137,8 @@ MONGODB_URI: MongoDB connection string
 
 ---
 
-**Author**
-Arnav Dinesh
+👤 **Author**
+
+**Arnav RD**
 
 
