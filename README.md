@@ -40,7 +40,7 @@ Make sure you have the following installed:
 
 ---
 
-### 📥 Installation
+## 📥 Installation
 
 1. **Clone the repository**
 ```bash
